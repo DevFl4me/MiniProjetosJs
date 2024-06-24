@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    border: none;
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
